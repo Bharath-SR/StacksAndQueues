@@ -13,7 +13,7 @@ import java.util.LinkedList;
 public class StacksAndQueues {
 
 	/**
-	 * UC3-Create Queue
+	 * UC4-Create Queue Using LinkedList
 	 */
 	
 	
