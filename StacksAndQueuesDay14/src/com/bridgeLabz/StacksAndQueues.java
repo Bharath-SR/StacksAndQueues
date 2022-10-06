@@ -3,7 +3,8 @@
  */
 package com.bridgeLabz;
 
-import java.util.Stack;
+import java.util.LinkedList;
+
 
 /**
  * @author Admin
@@ -12,21 +13,16 @@ import java.util.Stack;
 public class StacksAndQueues {
 
 	/**
-	 * UC2-Perform Peak and Pop
+	 * UC3-Create Queue
 	 */
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Stack stack = new Stack();
-		stack.push(70);
-		System.out.println(stack);
-		stack.push(30);
-		System.out.println(stack);
-		stack.push(56);
-		System.out.println(stack);
-		stack.pop();
-		System.out.println(stack);
+		LinkedList<Integer> linkedList=new LinkedList<Integer>();
+		linkedList.add(56);
+		linkedList.add(30);
+		linkedList.add(70);
+        System.out.println(linkedList);
 	
 		
 	}
